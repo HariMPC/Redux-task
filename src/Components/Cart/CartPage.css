@@ -1,0 +1,55 @@
+.cartitems{
+    width: 250px;
+    height: 250px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin:10px;
+    color : white;
+    background-color: navy;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 150px;;
+    background-color: black;
+    
+}
+
+h2{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+}
+
+.content{
+    padding: 30px;
+}
+
+.button{
+    padding: 5px;
+    border: 1px solid rgb(82, 78, 78);
+    border-radius: 3px;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cartitem{
+    text-align: center;
+}
+
+.total{
+    border:1px solid rgb(188, 214, 237);
+    background-color:rgb(4, 42, 77);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:90px;
+}
